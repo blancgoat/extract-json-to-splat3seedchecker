@@ -1,0 +1,15 @@
+services:
+  android:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: android-container
+    ports:
+      - "6080:6080"
+    environment:
+      - EMULATOR_DEVICE=Samsung Galaxy S10
+      - WEB_VNC=true
+    devices:
+      - /dev/kvm:/dev/kvm
+    volumes:
+      - ./output:/output

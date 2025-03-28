@@ -6,9 +6,9 @@
 
 ## How to
 1. **Download the Nintendo Switch Online APK**  
-   - Get the APK file from APKMirror:  
-     [Nintendo Switch Online - APKMirror](https://www.apkmirror.com/apk/nintendo-co-ltd/nintendo-switch-online/)  
-   - Place the downloaded .apkm file in the `apkm` folder.  
+   - Get the APK file from APKMirror: [Nintendo Switch Online - APKMirror](https://www.apkmirror.com/apk/nintendo-co-ltd/nintendo-switch-online/)
+   - Place the downloaded .apkm file in the `apkm` folder.
+   - ‼️Please rename the downloaded file to `nintendo.apkm`‼️
 
 2. **Start the Docker Container**  
    ```sh
@@ -16,16 +16,16 @@
    ```
 
 3. **Access the Web Interface**
-    - Open http://localhost:6900 in your browser.
-    - Wait for the Nintendo Switch Online application to launch.
+    - Open http://localhost:6080 in your browser.
+    - Wait for the Nintendo Switch Online application to launch. (automatic launch please wait)
 
 4. **Log in Nintendo Account and Join Splatoon 3 Game-Specific Services**
 
 5. **Wait for Data Extraction**
-    - The process takes at least 30 seconds, so please be patient.
+    - The process takes at least 30 seconds.
 
 6. **Locate the Extracted JSON File**
-    - The extracted .json file will be available in the /output folder.
+    - The extracted .json file will be available in the `/output` folder.
 
 7. **Upload this JSON File to [Splat3 Seed Checker](https://leanny.github.io/splat3seedchecker/#/settings)**
 
