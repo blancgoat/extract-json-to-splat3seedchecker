@@ -26,7 +26,7 @@
 
 5. **Wait for Data Extraction**
     - The extracted .json file will be available in the `./output` folder.
-    - The process takes at least 30 seconds.
+    - It won’t take more than 30 seconds.
 
 6. **Upload this JSON File to [Splat3 Seed Checker](https://leanny.github.io/splat3seedchecker/#/settings)**
 
