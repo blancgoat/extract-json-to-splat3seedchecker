@@ -17,17 +17,18 @@
 
 3. **Access the Web Interface**
     - Open http://localhost:6080 in your browser.
-    - Wait for the Nintendo Switch Online application to launch. (automatic launch please wait)
+    - Click connect button to connect to vnc.
+    - Wait for the Nintendo Switch Online application to launch. (automatic launch, please wait)
 
 4. **Log in Nintendo Account and Join Splatoon 3 Game-Specific Services**
+   - ![image](https://github.com/user-attachments/assets/ccf9a2e8-ef1a-4857-a26d-a8716b18e55d)
+   - If the work is completed, it should look like the picture above.
 
 5. **Wait for Data Extraction**
+    - The extracted .json file will be available in the `./output` folder.
     - The process takes at least 30 seconds.
 
-6. **Locate the Extracted JSON File**
-    - The extracted .json file will be available in the `/output` folder.
-
-7. **Upload this JSON File to [Splat3 Seed Checker](https://leanny.github.io/splat3seedchecker/#/settings)**
+6. **Upload this JSON File to [Splat3 Seed Checker](https://leanny.github.io/splat3seedchecker/#/settings)**
 
 
 ### Thanks to
