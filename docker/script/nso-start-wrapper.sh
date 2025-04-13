@@ -7,7 +7,7 @@ while true; do
         echo "Device is READY!"
         break
     fi
-    sleep 5
+    sleep 1
 done
 
 /app/docker-script/nso-start.sh

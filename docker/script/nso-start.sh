@@ -14,7 +14,7 @@ while true; do
   if [ $exit_code -eq 0 ]; then
     break
   else
-    sleep 5
+    sleep 1
   fi
 done
 
